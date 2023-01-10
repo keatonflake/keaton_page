@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'nunito';
+    font-size: 30px;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(hero.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3vh;
+    padding-bottom: 8vh;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    padding-top: 3vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 60px;
+}
+nav ul li a{
+    color: white;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+.main_photo{
+    display: block;
+    margin: auto auto;
+    max-width: 25%;
+    height: auto;
+    border-radius: 2%;
+    border: 2px solid white;
+}
+
+.about{
+    background-image: url(about.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    color: black;
+    padding-top: 3vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.about_body{
+    margin: 20px 20px;
+}
+.contact_info{
+    background-image: url(wood.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
